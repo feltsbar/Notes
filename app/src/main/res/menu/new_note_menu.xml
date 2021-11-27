@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/button_bold"
+        android:title="@string/menu_item_bold"
+        android:icon="@drawable/ic_bold"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2">
+    </item>
+
+    <item
+        android:id="@+id/button_color_picker"
+        android:title="@string/button_color_picker"
+        android:icon="@drawable/ic_color"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1">
+    </item>
+
+</menu>

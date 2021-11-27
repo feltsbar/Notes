@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Заметки</string>
+    <string name="settings">Settings</string>
+    <string name="notes">Notes</string>
+    <string name="shop_list">Shop list</string>
+    <string name="new_item">New</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hint_title">Заголовок</string>
+    <string name="hint_description">Описание</string>
+    <string name="menu_item_save">Save</string>
+    <string name="menu_item_bold">Bold</string>
+    <string name="button_color_picker">Color</string>
+</resources>
