@@ -11,8 +11,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/view_margin"
-        app:cardCornerRadius="@dimen/view_corner_radius"
+        app:cardBackgroundColor="@color/white"
 
+        app:cardCornerRadius="@dimen/view_corner_radius"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,8 +58,8 @@
                     android:id="@+id/text_view_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:maxLines="1"
                     android:layout_marginTop="2dp"
+                    android:maxLines="1"
                     android:text="TextView"
                     android:textColor="@color/black" />
 
@@ -77,6 +78,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
                     android:text="TextView"
+                    android:textColor="@color/dark_gray"
                     android:textSize="12sp" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
